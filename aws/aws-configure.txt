@@ -1,0 +1,39 @@
+
+Reginald Edwards
+02 June 2017
+
+CONFIGURE AWS
+====================================================================================================
+I. Install linux (ubuntu)
+
+II. Download software
+	* python python-dev python-setuptools (includes easy_install)
+	* python pip
+		$ sudo easy_install pip
+	* emacs
+	* curl
+	* wget
+	* xargs
+	* beautiful soup
+		$ sudo -H pip install bs4
+	* lib xml 
+		$ sudo -H pip install lxml
+
+III. Download and configure Amazon CLI
+
+IV. Download and configure Amazon Python SDK (boto3)
+	$ sudo pip install boto3
+	$ sudo pip install botocore==1.4.58
+
+(OPTIONAL)
+V. Mount EC2 instance to EFS
+	0. Create file system
+	1. Install the NFS client on EC2 instance:
+		$ sudo apt-get install nfs-common
+	2. Create a new directory on EC2 instance:
+		$ sudo mkdir efs
+	3. Mount file system using the DNS name
+		$ sudo mount -t nfs4 us-west-2b.fs-baee1513.efs.us-west-2.amazonaws.com:/ efs
+		$ sudo chown ubuntu efs
+
+VI. Create AMI image of instance to duplicate for future instances
