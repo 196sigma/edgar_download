@@ -1,16 +1,11 @@
 ### AUTHOR Reginald Edwards
 ### CREATED: 02 June 2017
-### MODIFIED: 26 JUNE 2017
+### MODIFIED: 7 Jan 2019
 
 
 ## DOWNLOADING 10-K FILES FROM EDGAR
-====================================================================================================
-====================================================================================================
 
-
-====================================================================================================
 ### ON LOCAL MACHINE
-====================================================================================================
 I. Run "get-urls.py" to get list of relevant URLs and associated metadata.
   1. Download the form.gz files for all year-quarters (1993-2018).
      outputs form.gz files into "/sec-downloads" folder with filenames of the form "form-<Year>-QTR<Quarter>/gz"
