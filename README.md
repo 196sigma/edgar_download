@@ -8,40 +8,25 @@
 ### ON LOCAL MACHINE
 I. Run "get-urls.py" to get list of relevant URLs and associated metadata.
   1. Download the form.gz files for all year-quarters (1993-2018).
-     outputs form.gz files into "/sec-downloads" folder with filenames of the form "form-<Year>-QTR<Quarter>/gz"
-     
-  2. Unzip each form.gz file.
-    - outputs index files into "/sec-company-index-files" folder with filenames of the form "form-<Year>-QTR<Quarter>"
+
+  Unzip each form.gz file.
+
+  Outputs form.gz files into "/index-files" folder with filenames of the form "form-<Year>-QTR<Quarter>/gz"     
     - Each index file is a fixed-width file with lines like [form type, company name, CIK, filing date, url path]
-    
-  3. Extract lines in the form.gz file that indicate the associated form is a 10-K.
-    - outputs files to "/sec-company-index-files-combined" folder with filenames "form-<Year>-10ks.txt"
-    
-  4. Prepend "https://www.sec.gov/Archives/" to the "url" field
+
+  Prepend "https://www.sec.gov/Archives/" to the "url" field
   
-  5. Convert the form.idx to tab-delimited files.
-    - outputs files to "/output" folder with filenames like "form-<Year>-10ks-tdf.txt"
+  Combine all data from index files into a master table of filings, tab-delimited. Output "master-index" file.
+
+ 
     
-  6. Combine all the submissions data for every year into one big file
-     Outputs "all-10k-submissions.txt" file.
-    
-  7. Get *JUST* the downloadable URL for each 10-K, which we will request from the EDGAR server
+  7. Get *JUST* the downloadable URL for each 10-K-type form, which we will request from the EDGAR server
      Outputs "urls.txt" file.
     
   8. create database of URL and associated metadata. Each line of this "database" file is like
     [form type, company name, CIK, filing date, url path] with headers
     "[formtype, companyname, cik, filingdate, url]"
     Outputs "ursl-db.txt".
-
-II. Get CIKs from COMPUSTAT
-  1. Run "get-compustat-ciks.sas"
-     outputs "compustat-ciks.txt"
-     
-  2. Run "merge-compustat-ciks.R"
-     Filter out URLs not associated with a COMPUSTAT CIK. Get a list of unique COMPUSTAT CIKs, then
-     exclude URLs in "urls-db.txt" and "urls.txt" not associated with one of these CIKs.
-     Output tab-delimited file "compustat-urls.txt" of URLs.
-     Outputs tab-delimited file "compustat-urls-db.txt" with database of URL and associated metadata.
 
 III. Download 10-Ks
   1. See section on "Download 10-Ks on Local Machine", OR
@@ -50,7 +35,7 @@ III. Download 10-Ks
 IV. Run "get-10k-fiscal-year.py" to get fiscal year from actual 10-K
    This script reads each 10-K in the "/raw" directory.
    Outputs "10k-fyears.txt" that has header "[filename, fyear]".
-   Executes in about 4h21min
+   Executes in about 4h21min!!!
 
 V. Run "merge-10k-fiscal-year.R"
     This script merges the fixed fiscal years with the rest of the metadata on the 10-K filings.
