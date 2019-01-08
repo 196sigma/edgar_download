@@ -60,7 +60,7 @@ V. Run "merge-10k-fiscal-year.R"
 VI. Run "sample-10ks.py" to get a representative sample of 10-Ks for testing code
 
 
-====================================================================================================
+
 ### DOWNLOAD 10-Ks ON AWS
 ====================================================================================================
 This section will use 20 EC2 instances on AWS to download the files. The basic approach is to split
