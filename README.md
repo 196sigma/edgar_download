@@ -7,8 +7,10 @@ This repo is a collection of notebooks and scripts for downloading corporate fil
 
 ### Notebooks
 Download XBRL Filings v2
-    * Download Financial Statements and Notes Datasets from EDGAR.ipynb
-    * Compile Subs from FSANDS.ipynb
+
+* Download Financial Statements and Notes Datasets from EDGAR.ipynb
+
+* Compile Subs from FSANDS.ipynb
     
 Download 10-K's from EDGAR
 
