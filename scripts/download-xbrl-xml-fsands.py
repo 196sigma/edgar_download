@@ -1,0 +1,42 @@
+"""
+This script downloads XBRL .xml files from the SEC EDGAR server. The list of urls to download
+come from the "all-sub.txt" tab-delimited dataset's "url" field. Each url is downloaded and 
+saved into its appropriate folder by year/quarter--determined by when it was filed to the SEC.
+
+TODO:
+* Add retry logic to downloads
+
+"""
+import pandas as pd
+import os
+import urllib
+import zipfile
+
+EXT_DIR = "/media/reggie/reg_ext/EDGAR/FSANDS/"
+SUB_FILE = EXT_DIR+"/all-sub-10k.tsv"
+DOWNLOAD_DIR_ = "/home/reggie/EDGAR/xbrl-2/{}/{}"
+
+subs = pd.read_csv(SUB_FILE, sep="\t", low_memory=False)
+print("{} urls found".format(len(list(subs["url"]))))
+print(list(subs["url"])[:10])
+print("...")
+q = {1:1,2:1,3:1,4:2,5:2,6:2,7:3,8:3,9:3,10:4,11:4,12:4}
+for i, row in subs.iterrows():
+    file_date = str(row['filed'])
+    year = int(file_date[:4])
+    month = int(file_date[4:6])
+    quarter = str(q[month]).zfill(2)
+    adsh = row["adsh"]
+    cik = row['cik']
+    url = row["url"]
+    DOWNLOAD_DIR = DOWNLOAD_DIR_.format(year, quarter)
+    if not os.path.isdir(DOWNLOAD_DIR):
+        os.makedirs(DOWNLOAD_DIR)
+    
+    target_filepath = os.path.join(DOWNLOAD_DIR,str(cik)+"-"+adsh+".xml")
+    
+    if not os.path.isfile(target_filepath):
+        print("Downloading {} of {}, file: {} \n {} ...".format(i, subs.shape[0], target_filepath, url))
+        urllib.request.urlretrieve(url, target_filepath)
+    else:
+        print("File {} already exists...".format(target_filepath))

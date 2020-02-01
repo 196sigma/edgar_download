@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<!-- Produced by EDGARsuite software, Advanced Computer Innovations, Inc., Copyright (C) 2008-2017 [PPXAMFWCZJV4VKXCJE4E]. www.edgarsuite.com -->
+<xbrl xmlns='http://www.xbrl.org/2003/instance' xmlns:us-gaap='http://fasb.org/us-gaap/2017-01-31' xmlns:xbrldi='http://xbrl.org/2006/xbrldi' xmlns:dei='http://xbrl.sec.gov/dei/2014-01-31' xmlns:fil='http://westg/20171231' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:utr='http://www.xbrl.org/2009/utr' xmlns:link='http://www.xbrl.org/2003/linkbase' xmlns:iso4217='http://www.xbrl.org/2003/iso4217' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xbrli='http://www.xbrl.org/2003/instance'>
+	<link:schemaRef xlink:type='simple' xlink:href='westg-20171231.xsd' />
+	<dei:DocumentType contextRef='Y17'>10-K</dei:DocumentType>
+	<dei:DocumentPeriodEndDate contextRef='Y17'>2017-12-31</dei:DocumentPeriodEndDate>
+	<dei:AmendmentFlag contextRef='Y17'>false</dei:AmendmentFlag>
+	<dei:EntityRegistrantName contextRef='Y17'>Westgate Acquisitions Corp</dei:EntityRegistrantName>
+	<dei:EntityCentralIndexKey contextRef='Y17'>0001099568</dei:EntityCentralIndexKey>
+	<dei:TradingSymbol contextRef='Y17'>westg</dei:TradingSymbol>
+	<dei:CurrentFiscalYearEndDate contextRef='Y17'>--12-31</dei:CurrentFiscalYearEndDate>
+	<dei:EntityCommonStockSharesOutstanding decimals='INF' contextRef='E17' unitRef='Shares'>6000000</dei:EntityCommonStockSharesOutstanding>
+	<dei:EntityPublicFloat decimals='INF' contextRef='E17Q2' unitRef='USD'>6000000</dei:EntityPublicFloat>
+	<dei:EntityFilerCategory contextRef='Y17'>Smaller Reporting Company</dei:EntityFilerCategory>
+	<dei:EntityCurrentReportingStatus contextRef='Y17'>No</dei:EntityCurrentReportingStatus>
+	<dei:EntityVoluntaryFilers contextRef='Y17'>No</dei:EntityVoluntaryFilers>
+	<dei:EntityWellKnownSeasonedIssuer contextRef='Y17'>Yes</dei:EntityWellKnownSeasonedIssuer>
+	<dei:DocumentFiscalYearFocus contextRef='Y17'>2017</dei:DocumentFiscalYearFocus>
+	<dei:DocumentFiscalPeriodFocus contextRef='Y17'>FY</dei:DocumentFiscalPeriodFocus>
+	<us-gaap:Cash decimals='INF' contextRef='E17' unitRef='USD'>379</us-gaap:Cash>
+	<us-gaap:Cash decimals='INF' contextRef='E16' unitRef='USD'>139</us-gaap:Cash>
+	<us-gaap:AssetsCurrent decimals='INF' contextRef='E17' unitRef='USD'>379</us-gaap:AssetsCurrent>
+	<us-gaap:AssetsCurrent decimals='INF' contextRef='E16' unitRef='USD'>139</us-gaap:AssetsCurrent>
+	<us-gaap:Assets decimals='INF' contextRef='E17' unitRef='USD'>379</us-gaap:Assets>
+	<us-gaap:Assets decimals='INF' contextRef='E16' unitRef='USD'>139</us-gaap:Assets>
+	<us-gaap:AccountsPayableCurrentAndNoncurrent decimals='INF' contextRef='E17' unitRef='USD'>3030</us-gaap:AccountsPayableCurrentAndNoncurrent>
+	<us-gaap:AccountsPayableCurrentAndNoncurrent decimals='INF' contextRef='E16' unitRef='USD'>8925</us-gaap:AccountsPayableCurrentAndNoncurrent>
+	<us-gaap:AccruedLiabilitiesCurrent decimals='INF' contextRef='E17' unitRef='USD'>82467</us-gaap:AccruedLiabilitiesCurrent>
+	<us-gaap:AccruedLiabilitiesCurrent decimals='INF' contextRef='E16' unitRef='USD'>66737</us-gaap:AccruedLiabilitiesCurrent>
+	<us-gaap:RelatedPartyTransactionDueFromToRelatedPartyCurrent decimals='INF' contextRef='E17' unitRef='USD'>163134</us-gaap:RelatedPartyTransactionDueFromToRelatedPartyCurrent>
+	<us-gaap:RelatedPartyTransactionDueFromToRelatedPartyCurrent decimals='INF' contextRef='E16' unitRef='USD'>151974</us-gaap:RelatedPartyTransactionDueFromToRelatedPartyCurrent>
+	<us-gaap:LiabilitiesCurrent decimals='INF' contextRef='E17' unitRef='USD'>248631</us-gaap:LiabilitiesCurrent>
+	<us-gaap:LiabilitiesCurrent decimals='INF' contextRef='E16' unitRef='USD'>227636</us-gaap:LiabilitiesCurrent>
+	<us-gaap:CommonStockValue decimals='INF' contextRef='E17' unitRef='USD'>60</us-gaap:CommonStockValue>
+	<us-gaap:CommonStockValue decimals='INF' contextRef='E16' unitRef='USD'>60</us-gaap:CommonStockValue>
+	<us-gaap:AdditionalPaidInCapital decimals='INF' contextRef='E17' unitRef='USD'>65657</us-gaap:AdditionalPaidInCapital>
+	<us-gaap:AdditionalPaidInCapital decimals='INF' contextRef='E16' unitRef='USD'>59657</us-gaap:AdditionalPaidInCapital>
+	<us-gaap:RetainedEarningsAccumulatedDeficit decimals='INF' contextRef='E17' unitRef='USD'>-313969</us-gaap:RetainedEarningsAccumulatedDeficit>
+	<us-gaap:RetainedEarningsAccumulatedDeficit decimals='INF' contextRef='E16' unitRef='USD'>-287214</us-gaap:RetainedEarningsAccumulatedDeficit>
+	<us-gaap:StockholdersEquity decimals='INF' contextRef='E17' unitRef='USD'>-248252</us-gaap:StockholdersEquity>
+	<us-gaap:StockholdersEquity decimals='INF' contextRef='E16' unitRef='USD'>-227497</us-gaap:StockholdersEquity>
+	<us-gaap:LiabilitiesAndStockholdersEquity decimals='INF' contextRef='E17' unitRef='USD'>379</us-gaap:LiabilitiesAndStockholdersEquity>
+	<us-gaap:LiabilitiesAndStockholdersEquity decimals='INF' contextRef='E16' unitRef='USD'>139</us-gaap:LiabilitiesAndStockholdersEquity>
+	<us-gaap:ProfessionalFees decimals='INF' contextRef='Y17' unitRef='USD'>5467</us-gaap:ProfessionalFees>
+	<us-gaap:ProfessionalFees decimals='INF' contextRef='Y16' unitRef='USD'>19345</us-gaap:ProfessionalFees>
+	<us-gaap:GeneralAndAdministrativeExpense decimals='INF' contextRef='Y17' unitRef='USD'>6080</us-gaap:GeneralAndAdministrativeExpense>
+	<us-gaap:GeneralAndAdministrativeExpense decimals='INF' contextRef='Y16' unitRef='USD'>9229</us-gaap:GeneralAndAdministrativeExpense>
+	<us-gaap:OperatingExpenses decimals='INF' contextRef='Y17' unitRef='USD'>11547</us-gaap:OperatingExpenses>
+	<us-gaap:OperatingExpenses decimals='INF' contextRef='Y16' unitRef='USD'>28574</us-gaap:OperatingExpenses>
+	<us-gaap:IncomeLossFromContinuingOperations decimals='INF' contextRef='Y17' unitRef='USD'>-11547</us-gaap:IncomeLossFromContinuingOperations>
+	<us-gaap:IncomeLossFromContinuingOperations decimals='INF' contextRef='Y16' unitRef='USD'>-28574</us-gaap:IncomeLossFromContinuingOperations>
+	<us-gaap:OtherSellingAndMarketingExpense decimals='INF' contextRef='Y17' unitRef='USD'>522</us-gaap:OtherSellingAndMarketingExpense>
+	<us-gaap:InterestExpense decimals='INF' contextRef='Y17' unitRef='USD'>-15730</us-gaap:InterestExpense>
+	<us-gaap:InterestExpense decimals='INF' contextRef='Y16' unitRef='USD'>-14183</us-gaap:InterestExpense>
+	<us-gaap:OtherExpenses decimals='INF' contextRef='Y17' unitRef='USD'>-15208</us-gaap:OtherExpenses>
+	<us-gaap:OtherExpenses decimals='INF' contextRef='Y16' unitRef='USD'>-14183</us-gaap:OtherExpenses>
+	<us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesDomestic decimals='INF' contextRef='Y17' unitRef='USD'>-26755</us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesDomestic>
+	<us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesDomestic decimals='INF' contextRef='Y16' unitRef='USD'>-42757</us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesDomestic>
+	<us-gaap:NetIncomeLoss decimals='INF' contextRef='Y17' unitRef='USD'>-26755</us-gaap:NetIncomeLoss>
+	<us-gaap:NetIncomeLoss decimals='INF' contextRef='Y16' unitRef='USD'>-42757</us-gaap:NetIncomeLoss>
+	<us-gaap:IncomeLossFromContinuingOperationsPerBasicAndDilutedShare decimals='INF' contextRef='Y17' unitRef='UsdPerShare'>-0.00</us-gaap:IncomeLossFromContinuingOperationsPerBasicAndDilutedShare>
+	<us-gaap:IncomeLossFromContinuingOperationsPerBasicAndDilutedShare decimals='INF' contextRef='Y16' unitRef='UsdPerShare'>-0.01</us-gaap:IncomeLossFromContinuingOperationsPerBasicAndDilutedShare>
+	<us-gaap:IncomeLossFromOperationsBeforeExtraordinaryItemsPerBasicAndDilutedShare decimals='INF' contextRef='Y17' unitRef='UsdPerShare'>6000000</us-gaap:IncomeLossFromOperationsBeforeExtraordinaryItemsPerBasicAndDilutedShare>
+	<us-gaap:IncomeLossFromOperationsBeforeExtraordinaryItemsPerBasicAndDilutedShare decimals='INF' contextRef='Y16' unitRef='UsdPerShare'>6000000</us-gaap:IncomeLossFromOperationsBeforeExtraordinaryItemsPerBasicAndDilutedShare>
+	<us-gaap:ProfitLoss decimals='INF' contextRef='Y17' unitRef='USD'>-26755</us-gaap:ProfitLoss>
+	<us-gaap:ProfitLoss decimals='INF' contextRef='Y16' unitRef='USD'>-42757</us-gaap:ProfitLoss>
+	<us-gaap:IncreaseDecreaseDueFromOfficersAndStockholders decimals='INF' contextRef='Y17' unitRef='USD'>6000</us-gaap:IncreaseDecreaseDueFromOfficersAndStockholders>
+	<us-gaap:IncreaseDecreaseDueFromOfficersAndStockholders decimals='INF' contextRef='Y16' unitRef='USD'>6000</us-gaap:IncreaseDecreaseDueFromOfficersAndStockholders>
+	<us-gaap:IncreaseDecreaseInAccruedInterestReceivableNet decimals='INF' contextRef='Y17' unitRef='USD'>15730</us-gaap:IncreaseDecreaseInAccruedInterestReceivableNet>
+	<us-gaap:IncreaseDecreaseInAccruedInterestReceivableNet decimals='INF' contextRef='Y16' unitRef='USD'>14183</us-gaap:IncreaseDecreaseInAccruedInterestReceivableNet>
+	<us-gaap:IncreaseDecreaseInAccountsPayable decimals='INF' contextRef='Y17' unitRef='USD'>-5895</us-gaap:IncreaseDecreaseInAccountsPayable>
+	<us-gaap:IncreaseDecreaseInAccountsPayable decimals='INF' contextRef='Y16' unitRef='USD'>-1095</us-gaap:IncreaseDecreaseInAccountsPayable>
+	<us-gaap:NetCashProvidedByUsedInOperatingActivities decimals='INF' contextRef='Y17' unitRef='USD'>-10920</us-gaap:NetCashProvidedByUsedInOperatingActivities>
+	<us-gaap:NetCashProvidedByUsedInOperatingActivities decimals='INF' contextRef='Y16' unitRef='USD'>-23669</us-gaap:NetCashProvidedByUsedInOperatingActivities>
+	<us-gaap:ProceedsFromRelatedPartyDebt decimals='INF' contextRef='Y17' unitRef='USD'>11160</us-gaap:ProceedsFromRelatedPartyDebt>
+	<us-gaap:ProceedsFromRelatedPartyDebt decimals='INF' contextRef='Y16' unitRef='USD'>20030</us-gaap:ProceedsFromRelatedPartyDebt>
+	<us-gaap:NetCashProvidedByUsedInFinancingActivities decimals='INF' contextRef='Y17' unitRef='USD'>11160</us-gaap:NetCashProvidedByUsedInFinancingActivities>
+	<us-gaap:NetCashProvidedByUsedInFinancingActivities decimals='INF' contextRef='Y16' unitRef='USD'>20030</us-gaap:NetCashProvidedByUsedInFinancingActivities>
+	<us-gaap:CashPeriodIncreaseDecrease decimals='INF' contextRef='Y17' unitRef='USD'>240</us-gaap:CashPeriodIncreaseDecrease>
+	<us-gaap:CashPeriodIncreaseDecrease decimals='INF' contextRef='Y16' unitRef='USD'>-3639</us-gaap:CashPeriodIncreaseDecrease>
+	<us-gaap:CashAndCashEquivalentsAtCarryingValue decimals='INF' contextRef='E15' unitRef='USD'>3778</us-gaap:CashAndCashEquivalentsAtCarryingValue>
+	<us-gaap:CashAndCashEquivalentsAtCarryingValue decimals='INF' contextRef='E17' unitRef='USD'>379</us-gaap:CashAndCashEquivalentsAtCarryingValue>
+	<us-gaap:CashAndCashEquivalentsAtCarryingValue decimals='INF' contextRef='E16' unitRef='USD'>139</us-gaap:CashAndCashEquivalentsAtCarryingValue>
+	<context id='Y17'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001099568</identifier>
+		</entity>
+		<period>
+			<startDate>2017-01-01</startDate>
+			<endDate>2017-12-31</endDate>
+		</period>
+	</context>
+	<context id='E17Q2'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001099568</identifier>
+		</entity>
+		<period>
+			<instant>2017-06-30</instant>
+		</period>
+	</context>
+	<context id='E17'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001099568</identifier>
+		</entity>
+		<period>
+			<instant>2017-12-31</instant>
+		</period>
+	</context>
+	<context id='E16'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001099568</identifier>
+		</entity>
+		<period>
+			<instant>2016-12-31</instant>
+		</period>
+	</context>
+	<context id='Y16'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001099568</identifier>
+		</entity>
+		<period>
+			<startDate>2016-01-01</startDate>
+			<endDate>2016-12-31</endDate>
+		</period>
+	</context>
+	<context id='E15'>
+		<entity>
+			<identifier scheme='http://www.sec.gov/CIK'>0001099568</identifier>
+		</entity>
+		<period>
+			<instant>2015-12-31</instant>
+		</period>
+	</context>
+	<unit id='USD'>
+		<measure>iso4217:USD</measure>
+	</unit>
+	<unit id='Shares'>
+		<measure>xbrli:shares</measure>
+	</unit>
+	<unit id='UsdPerShare'>
+		<divide>
+			<unitNumerator>
+				<measure>iso4217:USD</measure>
+			</unitNumerator>
+			<unitDenominator>
+				<measure>xbrli:shares</measure>
+			</unitDenominator>
+		</divide>
+	</unit>
+</xbrl>
